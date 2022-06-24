@@ -120,6 +120,7 @@ def CheckIntegrity(dir,number):
         fc.configure(text=fc.text+ '\n'.join(files_changed))
         fa.configure(text=fa.text+ '\n'.join(files_added))
         fr.configure(text=fr.text+ '\n'.join(files_removed))
+        label3.configure(text="Message : Integrity Checked Successfully")
         
 #Helper () for Check Integrity
 def CheckIntegrityHelper(dir,number):
@@ -181,8 +182,8 @@ folder=""
 
 #initialising root window
 root = ctk.CTk()
-root.title("  HashLine - File Integrity Monitor")
-root.geometry("650x750")#(x,y)
+root.title("  HashLine - A File Integrity Monitor")
+root.geometry("650x700")#(x,y)
 # root.geometry("")
 #root.resizable(False,True)
 root.wm_iconphoto(False,tk.PhotoImage(file="images/window_icon.png"))
@@ -204,6 +205,7 @@ def open_file():
     if folder:
         label3.configure(text="Message : Folder Selected Successfully")
         label2.config(text=folder)
+        ClearData()
 
 browse_btn = ctk.CTkButton( master=root,
                             text="Browse",
