@@ -6,11 +6,18 @@ A File Integrity Monitor is a software that performs the act of validating the i
 
 I have developed a File Integrity Monitoring Solution named - **`HashLine - A File Integrity Monitor`**
 
-HashLine is only suited for Windows Operating System.
+HashLine can be used to **detect whether tampering is done with a directory and files inside**.
 
-HashLine can be used to detect whether tampering is done with a directory and files inside.
+HashLine is developed in Python and is only suited for Windows Operating System.
 
-HashLine performs 3 functions : 
+### Modules Used in Implementation : 
+- `OS module` : This module is used for interacting with the file system tree.
+- `Hashlib module` : SHA512 function is used from this module.
+- `tkinter module` : This module helped in making the GUI more presentable.
+
+
+
+## HashLine performs 3 functions : 
 
 1. **`Browsing a Directory`** :  When clicked on the 'Browse' button, HashLine prompts a window that allows the users to select a directory.
 
@@ -40,7 +47,7 @@ HashLine performs 3 functions :
                           But if baseline doesn't exists, then it displays an error message saying- "Baseline file not present".
                           (NOTE : Baseline file is necessary for comparison of file's present content to a known trusted state.)
  
- Key Features about HashLine : 
+ ## Key Features about HashLine : 
  
  - HashLine uses the idea of comparing the file’s current state hash with the hash stored in the established baseline. 
  - HashLine is capable of monitoring all types of files viz. .doc, .txt, .rtf, .ppt, .xlxs
