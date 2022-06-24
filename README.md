@@ -6,6 +6,8 @@ A File Integrity Monitor is a software that performs the act of validating the i
 
 I have developed a File Integrity Monitoring Solution named - **`HashLine - A File Integrity Monitor`**
 
+HashLine is only suited for Windows Operating System.
+
 HashLine can be used to detect whether tampering is done with a directory and files inside.
 
 HashLine performs 3 functions : 
