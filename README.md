@@ -1,5 +1,5 @@
 # HashLine - A File Integrity Monitor
-![This is an image](https://github.com/Saurabh2402/File-Integrity-Monitor/blob/master/Project%20Images/3_Integrity_Checked_Results)
+![This is an image](https://github.com/Saurabh2402/File-Integrity-Monitor/blob/master/Project%20Images/3_Integrity_Checked_Results.png)
 
 
 A File Integrity Monitor is a software that performs the act of validating the integrity of operating system and application software files using a verification method between the current file state and a known good state also called `Baseline`.
