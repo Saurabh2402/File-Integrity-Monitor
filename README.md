@@ -1,11 +1,13 @@
 # HashLine - A File Integrity Monitor
 
+https://user-images.githubusercontent.com/71112312/182110509-38e81d77-5de7-4098-8d23-2eb2f20eb732.mp4
+
 
 ![This is an image](https://github.com/Saurabh2402/File-Integrity-Monitor/blob/master/Project%20Images/3_Integrity_Checked_Results.png)
 
 
 
-https://user-images.githubusercontent.com/71112312/182110509-38e81d77-5de7-4098-8d23-2eb2f20eb732.mp4
+
 
 
 
